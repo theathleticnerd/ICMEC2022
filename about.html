@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ICMEC 2022</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/f05d7216cb.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">CALL FOR PAPER</a></li>
+                    <li><a href="blog.html">REGISTRATION</a></li>
+                    <li><a href="committee.html">COMMITTEE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+<!-- About Us Content-->
+    <section class="about-us">
+        <div class="row"> 
+            <div class="about-col">
+                <h1>VIT-AP University</h1>
+                <p>
+                    With a history of 32 years of innovation in educational and
+                    research domain, VIT has been a forerunner in delivering 
+                    quality education. Consistently ranked among the top 
+                    educational insitutes in the country, the VIT group of 
+                    institutions have had a proud tradition of pursuing 
+                    knowledge and excellence. In keeping with this tradition, 
+                    the leadership at VIT-AP resonates a dynamic blend of academic
+                   initiative and industry partnership with a vision of creating 
+                   one of the finest academic destinations in the world. The VIT-AP 
+                   campus, which is poised to become one of the country's best
+                   campuses, offers several avenues to explore your interests, 
+                   identify core competencies and engage in an evolving lifecycle 
+                   of education and growth. Experienced and learned teachers are 
+                   strongly encouraged to nuture the students. Our moto is 'Apply 
+                   Knowledge, Improve Life!'. Our main vision is we shall transform 
+                   higher education and contribute to the improvement of life itself
+                   by application of knowledge.
+                    
+                </p>
+                <a href="https://vitap.ac.in/" class="hero-btn red-btn" target="_blank">EXPLORE NOW</a>
+            </div> 
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div> 
+        </div>
+
+
+        <div class="row"> 
+            <div class="about-col">
+                <h1>VIT-AP School of Electronic Engineering (SENSE)</h1>
+                <p>
+                   The Department of Electronics and Communcation Engineering 
+                   was established in 2017. It has become the School of 
+                   Electronics Engineering (SENSE) in Janaury 2019.
+                   At present, the school is headed by Dr. Umkanta Nanda with
+                   766 students, 41 faculty and 101 research scholars. The School has qualified and committed faculty members
+                   who offer impressive instruction in a variety of modes, exploring experiential learning
+                   approaches and new pedagogical methods in order to provide proper learning to
+                   students. The school provides the necessary infrastructure, hardware, and software to
+                   support the faculty for their continuous learning and research. The programmes
+                   offered under SENSE are meticulously designed with a strong real-world application
+                   and industrial relevance. They range from the application of science in transforming
+                   semi-conductor materials as usable devices which may be used to create “smart”
+                   innovative products, to enabling students design efficient, affordable, means and
+                   mechanisms of communicating information. At present, the following programmes are
+                   offered at the undergraduate level and post-graduation level.
+
+                    
+                </p>
+                <a href="http://vitap.ac.in/electronics-communication-engineering/" class="hero-btn red-btn" target="_blank">EXPLORE NOW</a>
+            </div> 
+            <div class="about-col">
+                <img src="images/about2.jpg">
+            </div> 
+        </div>
+    </section>
+
+
+<!-- Footer  -->
+<section class="footer">
+    <h4>ICMEC 2022</h4>
+    <p>ICMEC 2022 Organized by School of Electronics<br>
+    Engineering, VIT-AP
+    University Amaravati, Andhra Pradesh, India</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>By VITAP</p>
+</section>
+<!--- JavaScript for toggle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+
+</html>

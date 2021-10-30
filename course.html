@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ICMEC 2022</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/f05d7216cb.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">CALL FOR PAPER</a></li>
+                    <li><a href="blog.html">REGISTRATION</a></li>
+                    <li><a href="committee.html">COMMITTEE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Call For Paper</h1>
+    </section>
+<!--Course -->
+<section class="course">
+    <h1>Call for Paper</h1>
+    <p>The conference theme is "Modern Electronic Components"
+        <br> Technical paperts describing original, previously 
+        unpublished research,<br> not currently under review by another
+        conference or journal, are lies in the current theme of the <br>conference can
+        be submitted under the following tracks
+    </p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Electronic Devices</h3>
+            <p>
+                Modelling and Testing<br/><br/>
+                CAD Tool and Fabrication Technology<br/><br/>
+                Power Devices<br/><br/>
+                Sensors<br/><br/>
+
+            </p>
+        </div>
+
+        <div class="course-col">
+            <h3>Communication Systems and Components</h3>
+            <p>
+                RF and Optical Components<br/><br/>
+                Millimeter-wave Technology<br/><br/>
+                5G Gears<br/><br/>
+                System Architecture and Protocols<br/><br/>
+
+            </p>
+        </div>
+
+        <div class="course-col">
+            <h3>AI for Electronic Components and Systems</h3>
+            <p>
+                Signal Synthesis and Processing<br/><br/>
+                Internet of Things<br/><br/>
+                Computer Network and Security<br/><br/>
+                Wireless Sensor Network<br/><br/>
+            </p>
+        </div>
+    </div>
+    <h1>Submission Guidelines</h1>
+    <p><b>Full papers must be original and novel research<br/> contributions with
+        evalutation results and are limited to six(5) <br/>printed pages (10-point font)
+        including figures, references and appendices (two<br/> additional pages are allowed
+        with a per page extra fee). Short papers, limited <br/>in length to four (4) pages,
+        should be more visonary in nature and are meant to <br/>discuss new challenges 
+        and visions, showcase early research results and <br/>explore novel research directions.
+        All the manuscript should be submitted using easy <br/>chair submission link in PDF format
+        without author name and affiliation as per the <br/>Springer Format.
+    
+    <br/><br/>
+    Authors should ensure that the similarity score of <br/>their research paper is not above 10
+%. Manuscripts having similarity score more than 10 % <br/>shall not be processed.
+</b></p>
+<h3>Review Process & Oral Presentation:</h3>
+    <li>The paper having the similarity score less than 10 % shall be processed for double blind
+        review.</li>
+    <li>The papers will be peer reviewed by technical committee of the conference.</li>
+    <li>Based on review the authors are informed about their paper status:</li><br/>
+    (a) Oral presentation for accepted paper<br/>
+    (b) Accepted with minor corrections for Oral Presentation<br/>
+    (c) Rejected.<br/>
+
+<br/><br/>
+    <h1>Paper Submission link</h1>
+    <p><b>
+        For paper submission the author should need <br/>to follow the below link and have to create his
+own free account. After creation of account he must <br/>choose his role as an Author and select
+“enter as an author” for paper submission.
+https://easychair.org/conferences
+</b></p>
+<br/>
+<br/>
+<h1>Publication</h1>
+    <p><b>
+        All Accepted and Presented Post conference <br/> papers will be published in the proceedings of
+        <br/>ICMEC 22 or Book Chapter in Springer (sent to Springer<br/> for approval)
+</b></p>
+    
+    
+</section>
+
+
+
+<!-- Footer  -->
+<section class="footer">
+    <h4>ICMEC 2022</h4>
+    <p>ICMEC 2022 Organized by School of Electronics<br>
+    Engineering, VIT-AP
+    University Amaravati, Andhra Pradesh, India</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>By VITAP</p>
+</section>
+<!--- JavaScript for toggle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+
+</html>

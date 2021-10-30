@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ICMEC 2022</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <script src="https://kit.fontawesome.com/f05d7216cb.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">CALL FOR PAPER</a></li>
+                    <li><a href="blog.html">REGISTRATION</a></li>
+                    <li><a href="committee.html">COMMITTEE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Committee</h1>
+    </section>
+<!-- Committee Content-->
+    <section class="about-us">
+        <div class="row"> 
+            <div class="about-col">
+                <h1>International Advisory Committee</h1>
+                <p><b>
+                    Dr. Somnath Chattopadhyay, California State University, Northridge, US<br/>
+                    Dr. Ahmed Zobaa, Senior Lecturer, Brunel University, London<br/>
+                    Dr.Lakshman Tamil, University of Rhode Island<br/>
+                    Dr. Ke-Lin Du, Concordia University<br/>
+                    Dr.Kouichi Sakurai, National University Corporation Kyushu University<br/>
+                    Dr. Subramaniam Ganesan, Prof., E & C Engineering, Oakland University, USA<br/>
+                    Dr. L M Patnaik, Adjunct Professor and INSA Senior Scientist & Former Professor, Department of Electrical Systems Engineering, IIS, Bangalore, India<br/>
+                    Dr. Ramesh Agarwal, Professor, School of Engineering & Applied Science, Washington University<br/>
+                    Dr. Vincenzo Piuri, Professor, University of Milan, Italy<br/>
+                    Dr. Ashoka Bhat, Professor, Department of Electrical and Computer Engineering, University of Victoria, Canada<br/>
+                    Prof. Akhtar Kalam, Head of External Engagement, Victoria University, Victoria, Australia<br/>
+                </b></p>
+                
+            </div> 
+            <div class="about-col">
+                <h1>National Advisory Committee</h1>
+                <p><b>
+                    Dr. K.R. Niazi, Prof., EE, MNIT, Jaipur India<br/>
+                    Dr. V. K. Jain, former Director Grade Scientist, Solid State Physics Lab., DRDO, India<br/>
+                    Dr. Manoj Kumar Patairiya, Director, CSIR, NISCAIR, India<br/>
+                    Dr. Sanjeev Mishra, Prof., UDME, RTU, Kota<br/>
+                    Dr. Kailash N. Srivastava, VC, SUAS, Indore,<br/>
+                    Prof. Harpal Tiwari, Prof., EE, MNIT, Jaipur India<br/>
+                    Dr.T.Kumar, IIT(ISM) Dhanbad<br/>
+                    Dr. S. Jayaraj, NIT, Kozhikode, India<br/>
+                    Prof. (Dr.) Pallav Banerjee , IIT Kharagpur, India<br/>
+                    Prof. (Dr.) Ranjan Gangopadhyay, IIT Khragpur<br/>
+                    Prof. K. Mazumdar, (IIT(ISM) Dhanbad<br/>
+                    Dr. Anurag Singh ,IIIT Naya Raipur<br/>
+                    Dr. Apurba Chakraborty, BITS Pilani Goa<br/>
+                    Dr. Arijit Majumdar ,SAMEER, KOLKATA<br/>
+                    
+                </b></p>
+            </div> 
+        </div>
+
+
+        <div class="row"> 
+            <div class="about-col">
+                <h1>Patrons</h1>
+                <p><b>
+                    Chief Patron: Dr. G. Viswanathan Chancellor, VIT<br/>
+                    Dr. Sekar Viswanathan, Vice President, VIT-AP<br/>
+                    Mr. Sankar Viswanathan, Vice President, VIT<br/>
+                    Mr. G. V. Selvam, Vice President, VIT<br/>
+                    Dr. S. V. Kota Reddy, Vice Chancellor, VIT-AP<br/>
+                    Dr. CLV Sivakumar, Registrar, VIT-AP<br/>
+                </b></p>
+                
+            </div> 
+            <div class="about-col">
+                <h1>Conveners</h1>
+                <p><b>
+                    Dr. Umakanta Nanda, VIT-AP University<br/>
+                    Dr. Jagadish Chandra Mudiganti, VIT-AP University<br/>
+                    Dr. Ravindra Dhuli, VIT-AP University<br/>
+                </b></p>
+            </div> 
+        </div>
+    
+
+
+    </section>
+
+
+<!-- Footer  -->
+<section class="footer">
+    <h4>ICMEC 2022</h4>
+    <p>ICMEC 2022 Organized by School of Electronics<br>
+    Engineering, VIT-AP
+    University Amaravati, Andhra Pradesh, India</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>By VITAP</p>
+</section>
+<!--- JavaScript for toggle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+
+</html>
